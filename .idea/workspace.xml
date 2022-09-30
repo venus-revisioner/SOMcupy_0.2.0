@@ -22,6 +22,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="git@github.com:venus-revisioner/SOMcupy.git" />
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE_MERGES" />
+        <option value="ROOT" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -195,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664506147826</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="patching and adding some functionality to SomWorker">
+      <created>1664506636563</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664506636563</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
