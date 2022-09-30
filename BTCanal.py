@@ -69,8 +69,5 @@ def BTCdeploy
 	btc_data_list = [(ca_n[i], vola[i], volu[i]) for i in range(le)]
 	btc_training_pool = tuple(btc_data_list)
 	return btc_training_pool
-	
-	
-	
-	csv_path
-	"D:/PycharmProjects/Binance/Binance_BTCUSDT_d.csv"
+
+	csv_path = "Binance_BTCUSDT_d.csv"
