@@ -1,2 +1,4 @@
 # SOMcupy
-cupy implementation of SOM algorithm, unsupervised learning
+
+GPU implementation of SOM algorithm using cupy library.
+- unsupervised learning

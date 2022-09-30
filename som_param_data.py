@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 @dataclass
 class SOMSet_1:
-	dim = (64,64)
+	dim = (64, 64)
 	max_iter: int = 129
 	map_radius = 2.
 	neigh_pow: float = 1.1
