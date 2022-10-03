@@ -10,6 +10,8 @@ Create historical data from BTC daily prices, and calculate three components:
 3. normalized trading volume
 
 And feed the values as rgb-matrix into the cuda-accelerated SOM, self-organizing map.
+The process can be viewed real time using Vispy and its OpenGL-shader pipe. Using
+custom-made glsl-shader enables observation t.ex. in HSL-colorspace.
 
 This associative unsupervised learning model is self-made from the scratch, from the
 abstraction I found in the net. (It was 2013 I did my first one, and then proceeded using gpu
