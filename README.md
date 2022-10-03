@@ -24,5 +24,6 @@ is perfect for RGB-visualisation. But there's more to it. I also used it for map
 granular synthesizer to 2D map. It enabled a smooth transition from the preset to the other without
 it being just a plain old linear interpolation.)
 
-#References
+
+References:
 - [1] Kohonen, T. (1982). Self-Organizing Maps. Springer-Verlag.
