@@ -8,6 +8,7 @@ Create historical data from BTC daily prices, and calculate three components:
 1. normalized daily candle
 2. normalized volatility
 3. normalized trading volume
+
 And feed the values as rgb-matrix into the cuda-accelerated SOM, self-organizing map.
 
 This associative unsupervised learning model is self-made from the scratch, from the
