@@ -3,8 +3,9 @@ import random
 import numpy as np
 
 from overhead.aioh.SomCudaDriver import SomWorker, SomCupy
-import BTCData
-btc_training_pool = BTCData.btc_training_pool_suffle
+from BTCanal import BTCanal
+btc_training_pool = BTCanal().btc_training_pool
+print("btc_training_pool lenght: ", len(btc_training_pool))
 
 som_worker = SomWorker(dim=(512, 512), max_iter=8, internal_iters=2, map_radius_scale=0.5,
                        neighb_pow=3., neighb_diminish_rate=1.,
