@@ -1,6 +1,6 @@
 # coding=utf-8
 
-from overhead.aioh.SomCudaDriver import SomWorker, SomCupy
+from overhead.aioh.SomCudaDriver import SomWorker
 from BTCanal import BTCanal
 btc_training_pool = BTCanal().btc_training_pool
 print("btc_training_pool lenght: ", len(btc_training_pool))
